@@ -39,7 +39,7 @@ const Footer = () => {
     <footer className="mt-20 flex w-full flex-col items-center border-t border-white/20 px-6 py-12">
       <div className="flex w-full max-w-7xl flex-col items-center justify-between gap-8 md:flex-row md:items-start">
         {/* Brand */}
-        <div className="flex flex-col items-center gap-4 md:items-start">
+        <Link href="#" className="flex flex-col items-center gap-4 md:items-start">
           <h2 className="text-[24px] font-black leading-8 tracking-[-0.24px] text-[#E0E2EA]">
             Codebase.AI
           </h2>
@@ -47,7 +47,7 @@ const Footer = () => {
           <p className="max-w-sm text-center text-[15px] leading-6 text-[#C0C7D4] md:text-left">
             Empowering developers with AI-driven codebase analysis and insights.
           </p>
-        </div>
+        </Link>
 
         {/* Footer Links */}
         <div className="flex flex-col gap-8 md:flex-row md:gap-16">
